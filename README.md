@@ -5,6 +5,9 @@
 
 Dashboard para análise dos preços da gasolina no Brasil (2004-2025) feito com Python/Dash.
 
+# Link 👇
+https://gasolina-preco.onrender.com/
+
 ## 🔧 Funções
 
 - Visualização interativa das variações de preço da gasolina por estado
