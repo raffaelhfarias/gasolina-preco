@@ -1,9 +1,9 @@
-![PROJETO GASOLINA_site_roxo](https://user-images.githubusercontent.com/63136680/171275141-a3557f39-7007-4f21-8576-bb3f74a95633.jpg)
+![PREÇO GASOLINA_BRASIL](https://raw.githubusercontent.com/raffaelhfarias/gasolina-preco/refs/heads/main/Others/capa.png)
 
 
-# Gas Prices Dash
+# Preço da Gasolina no Brasil
 
-Dashboard para análise dos preços da gasolina no Brasil (2004-2025) feito com Python.
+Dashboard para análise dos preços da gasolina no Brasil (2004-2025) feito com Python/Dash.
 
 ## 🔧 Funções
 
