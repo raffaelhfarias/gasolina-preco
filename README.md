@@ -3,52 +3,77 @@
 
 # Gas Prices Dash
 
-Dashboard para análise dos preços da gasolina no Brasil (2004-2021) feito com Python.
+Dashboard para análise dos preços da gasolina no Brasil (2004-2025) feito com Python.
 
 ## 🔧 Funções
 
-- Ler e dispor dados de forma visual das variações de preço da gasolina
-- Filtrar por ano os dados para uma análise mais minuciosa
-- Slider com botão 'play' e 'pause' para animação do dashboard
-- Possibilidade de alternar entre o tema claro e escuro do layout
-
+- Visualização interativa das variações de preço da gasolina por estado
+- Análise temporal com filtros por ano
+- Gráfico de animação com controles de reprodução
+- Interface responsiva com suporte a temas claro e escuro
+- Comparação de preços entre diferentes estados
+- Análise de tendências e variações mensais
 
 ## 💻 Projeto
-Para ver as aulas do desenvolvimento do projeto completo em vídeo:
 
-<a href = "https://asimov.academy/"><img src="https://img.shields.io/badge/ASIMOV-Aulas%20do%20projeto-lightgrey" target="_blank"></a> 
-
-Para ver o projeto em tempo real:
-
-<a href = "https://gasprices-dash-asimov.herokuapp.com/"><img src="https://img.shields.io/badge/ASIMOV-Projeto%20em%20tempo%20real-lightgrey" target="_blank"></a> 
+Este dashboard foi desenvolvido para análise detalhada dos preços da gasolina no Brasil, permitindo visualizar tendências, comparar preços entre estados e acompanhar a evolução dos valores ao longo do tempo.
 
 ## 👨‍💻 Tecnologias Utilizadas
 
-Utilizando apenas **PYTHON** e as bibliotecas:
-> - Dash
-> - Dash-Core-Components
-> - Dash HTML
-> - Dash Bootstrap
-> - Plotly
-> - Pandas
-> - NumPy
+O projeto foi desenvolvido utilizando **PYTHON** e as seguintes bibliotecas:
+> - Dash (2.14.2)
+> - Dash-Bootstrap-Components (1.5.0)
+> - Dash-Bootstrap-Templates (1.1.2)
+> - Dash-Core-Components (2.0.0)
+> - Dash-HTML-Components (2.0.0)
+> - Plotly (5.19.0)
+> - Pandas (2.2.0)
 
+## 🚀 Instalação
 
-## 📜 Conteúdo
-Para aprender mais sobre como desenvolver projetos de Data Science, AI, Criação de Web Apps e Dashboards, acesse:
+1. Clone este repositório
+```bash
+git clone [url-do-repositório]
+```
 
-<a href = "https://asimov.academy/"><img src="https://img.shields.io/badge/ASIMOV-Saiba%20Mais-lightgrey" target="_blank"></a> 
+2. Crie um ambiente virtual
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
 
-### 🤝 Suporte/Contato
+3. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
 
+4. Execute a aplicação
+```bash
+python index.py
+```
 
-[![Whatsapp Badge](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5551981830833)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/asimov.academy/)
-[![Discord Badge](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/W2Nc7bxvk7)
+## 📊 Funcionalidades
 
-✉ contato@asimov.academy
+- **Análise Temporal**: Visualize a evolução dos preços ao longo dos anos
+- **Comparação entre Estados**: Compare os preços entre diferentes estados do Brasil
+- **Gráfico Animado**: Acompanhe a variação dos preços de forma dinâmica
+- **Filtros Interativos**: Personalize sua análise com diferentes filtros
+- **Design Responsivo**: Interface adaptável a diferentes dispositivos
 
+## 🤝 Contribuições
 
+Contribuições são sempre bem-vindas! Sinta-se à vontade para:
 
+1. Reportar bugs
+2. Sugerir novas funcionalidades
+3. Melhorar a documentação
+4. Enviar pull requests
 
-<p align="center">Copyright © 2022 Asimov Academy</p>
+## 📝 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+<p align="center">Desenvolvido por Raffael Henrique com agradecimento a Asimov Academy pela estrutura inicial</p>
